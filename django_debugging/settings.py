@@ -29,13 +29,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-johnrearden-djangodebug-tni78situy5.ws.codeinstitute-ide.net',
-    
+    'django-debugging-2cdd1e0ef8b9.herokuapp.com',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-johnrearden-djangodebug-tni78situy5.ws.codeinstitute-ide.net',
 ]
-
 
 # Application definition
 
