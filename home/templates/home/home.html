@@ -6,7 +6,7 @@
         <div class="col-12 col-md-6 col-lg-4 text-center">
             <h1 class="display-6 text-gray">Add New Person</h1>
             <form method="post" class="person-form text-gray">
-                {% csrf_token %} {{ form.as_p }}
+                {% csrf_token %} {{ form.as_p  }}
                 <input type="submit" value="Enlist" />
             </form>
         </div>
