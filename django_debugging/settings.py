@@ -27,12 +27,14 @@ SECRET_KEY = 'django-insecure-2t7=1b-k#-qpda6#jzi2%z9cxznz2w^3=^b506r(#hvh$)+b5k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '8000-johnrearden-djangodebug-tni78situy5.ws.codeinstitute-ide.net',
+    'django-debugging-2cdd1e0ef8b9.herokuapp.com',
+]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-johnrearden-djangodebug-tni78situy5.ws.codeinstitute-ide.net',
 ]
-
 
 # Application definition
 
@@ -50,6 +52,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
