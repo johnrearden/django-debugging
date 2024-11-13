@@ -2,7 +2,7 @@
 Django project with multiple branches, each with a single bug
 
 # Branches and Solutions
-Branch 1
+Branch 1 - 
 Branch 2
 Branch 3
 Branch 4
