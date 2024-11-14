@@ -1,14 +1,12 @@
 # django-debugging
 Django project with multiple branches, each with a single bug
 
-# Branches and Solutions
-Branch 1
-Branch 2
-Branch 3
-Branch 4
-Branch 5
-Branch 6
-Branch 7
-Branch 8
-Branch 9
-Branch 10
+# Branches, Errors and Solutions
+Branch 1 - 400 Bad Request
+Branch 2 - TemplateDoesNotExist
+Branch 3 - NoReverseMatch
+Branch 4 - Where's my form gone!
+Branch 5 - Where's my home page gone!
+Branch 6 - OperationalError - no such table
+Branch 7 - Why does my admin panel look funny?
+
